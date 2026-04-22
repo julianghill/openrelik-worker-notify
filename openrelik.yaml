@@ -1,0 +1,12 @@
+# Showcase this worker on https://openrelik.org/marketplace
+publish: false
+
+# Worker Metadata. This section is required.
+display_name: Notification worker
+description: Send OpenRelik workflow notifications to Discord.
+
+# Optional: Third-Party Tools Used by the Worker.
+tools:
+  - display_name: Discord Webhooks
+    description: Sends messages to Discord channels via incoming webhooks.
+    url: https://discord.com/developers/docs/resources/webhook
